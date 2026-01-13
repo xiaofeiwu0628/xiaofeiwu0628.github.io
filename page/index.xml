@@ -21,7 +21,36 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://xiaofeiwu0628.github.io/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+        <description>&lt;h1 id=&#34;-个人简介&#34;&gt;✨ 个人简介
+&lt;/h1&gt;&lt;h2 id=&#34;-基本信息&#34;&gt;🧑‍🎓 基本信息
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;身份&lt;/strong&gt; ：深圳职业技术大学 大三学生&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;状态&lt;/strong&gt; ：混吃等死ing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-专业技能与兴趣&#34;&gt;🚀 专业技能与兴趣
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;技术方向&lt;/strong&gt; ：Unity游戏开发，Web前端，Python，C#&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;网站搭建&lt;/strong&gt;：独立使用 &lt;strong&gt;Hugo&lt;/strong&gt; 搭建并维护个人网站，选用简洁高效的 &lt;strong&gt;Stack&lt;/strong&gt; 主题（设计：Jimmy）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;爱好&lt;/strong&gt; ：
+&lt;ul&gt;
+&lt;li&gt;🎮 热爱游戏，关注游戏设计与沉浸式体验&lt;/li&gt;
+&lt;li&gt;📺 喜欢动漫，从中汲取创意与叙事灵感&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-我的网站&#34;&gt;🌐 我的网站
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;网站状态&lt;/strong&gt; ：持续迭代中（“关于”板块加载中…）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;设计风格&lt;/strong&gt; ：深色界面、简约排版，注重内容可读性与视觉舒适度&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;构建工具&lt;/strong&gt; ：&lt;strong&gt;Hugo&lt;/strong&gt;静态站点生成器&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;愿景&lt;/strong&gt; ：分享学习笔记、项目心得，记录成长轨迹&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-联系与交流&#34;&gt;📬 联系与交流
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;QQ：3500756911&lt;/li&gt;
+&lt;li&gt;欢迎通过网站 &lt;strong&gt;归档&lt;/strong&gt; 与 &lt;strong&gt;搜索&lt;/strong&gt; 功能探索我的内容&lt;/li&gt;
+&lt;li&gt;期待与同道交流 &lt;strong&gt;Unity技术、Python、游戏开发、动漫文化&lt;/strong&gt; 等相关话题&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>

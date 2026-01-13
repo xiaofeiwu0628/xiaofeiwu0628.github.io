@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>学习笔记 on FeiOXO的网站</title>
+        <link>https://xiaofeiwu0628.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+        <description>Recent content in 学习笔记 on FeiOXO的网站</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>FEIOXO</copyright>
+        <lastBuildDate>Tue, 13 Jan 2026 15:55:40 +0800</lastBuildDate><atom:link href="https://xiaofeiwu0628.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>本地HugoSite服务部署</title>
+        <link>https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/</link>
+        <pubDate>Tue, 13 Jan 2026 15:55:40 +0800</pubDate>
+        
+        <guid>https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/</guid>
+        <description>&lt;img src="https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/background.png" alt="Featured image of post 本地HugoSite服务部署" /&gt;&lt;h1 id=&#34;主要借鉴up主letere-莱特雷httpsspacebilibilicom402971365&#34;&gt;主要借鉴up主&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/402971365&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Letere-莱特雷&lt;/a&gt;
+&lt;/h1&gt;&lt;h2 id=&#34;下载hugo&#34;&gt;下载Hugo
+&lt;/h2&gt;&lt;p&gt;推荐使用老版本&lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/releases/tag/v0.136.0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt;比较稳定，一般电脑选择这个windows-amd64进行下载即可&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294775197.png&#34;
+	width=&#34;1444&#34;
+	height=&#34;1052&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294775197_hu15733986254290773740.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294775197_hu5987097756596255787.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768294775197&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;137&#34;
+		data-flex-basis=&#34;329px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;hugo配置&#34;&gt;Hugo配置
+&lt;/h2&gt;&lt;h3 id=&#34;解压hugo并在hugo所在的文件夹的地址栏输入cmd按下enter进入命令行模式&#34;&gt;解压Hugo，并在Hugo所在的文件夹的地址栏输入cmd，按下Enter进入命令行模式
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294921643.png&#34;
+	width=&#34;759&#34;
+	height=&#34;163&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294921643_hu11466206524233874934.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294921643_hu6419262922978765423.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768294921643&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;465&#34;
+		data-flex-basis=&#34;1117px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;使用命令-hugo-new-site-xxx-创建hugo-site基础文件&#34;&gt;使用命令 &lt;code&gt;hugo new site xxx &lt;/code&gt;创建Hugo site基础文件
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294981352.png&#34;
+	width=&#34;1103&#34;
+	height=&#34;565&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294981352_hu4458371198696506570.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294981352_hu3721478938151248286.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768294981352&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;195&#34;
+		data-flex-basis=&#34;468px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;复制一个hugoexe放入xxx文件夹中&#34;&gt;复制一个hugo.exe放入xxx文件夹中
+&lt;/h3&gt;&lt;h3 id=&#34;使用命令-cd-xxx进入xxx文件夹中&#34;&gt;使用命令 &lt;code&gt;cd xxx&lt;/code&gt;进入xxx文件夹中
+&lt;/h3&gt;&lt;h3 id=&#34;hugo-server--d-启动该服务器&#34;&gt;&lt;code&gt;hugo server -D&lt;/code&gt; 启动该服务器
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295537491.png&#34;
+	width=&#34;1474&#34;
+	height=&#34;930&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295537491_hu1765762317389741145.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295537491_hu6081803903492865149.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768295537491&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;158&#34;
+		data-flex-basis=&#34;380px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;选择喜欢的hugo-theme&#34;&gt;选择喜欢的Hugo Theme
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Theme官网&lt;/a&gt;， 我这里以&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/themes/hugo-theme-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stack&lt;/a&gt;为例子&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768297600243.png&#34;
+	width=&#34;2537&#34;
+	height=&#34;1308&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768297600243_hu12957076657777641657.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768297600243_hu1039602571975014755.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768297600243&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;193&#34;
+		data-flex-basis=&#34;465px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;点击download进入github点击左上的tag选择版本推荐高版本&#34;&gt;点击Download进入Github，点击左上的Tag选择版本（推荐高版本）
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294746510.png&#34;
+	width=&#34;1379&#34;
+	height=&#34;1060&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294746510_hu7187025043288577127.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294746510_hu18007495726657899855.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768294746510&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;130&#34;
+		data-flex-basis=&#34;312px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;下载这个压缩包&#34;&gt;下载这个压缩包
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294824423.png&#34;
+	width=&#34;1326&#34;
+	height=&#34;1050&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294824423_hu11830503903112185857.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768294824423_hu13947502311570547135.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768294824423&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;126&#34;
+		data-flex-basis=&#34;303px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;解压stack-theme压缩包并且去掉后面的版本号&#34;&gt;解压Stack Theme压缩包，并且去掉后面的版本号
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295152777.png&#34;
+	width=&#34;692&#34;
+	height=&#34;62&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295152777_hu15060882177647745270.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295152777_hu5204721449648184233.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768295152777&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;1116&#34;
+		data-flex-basis=&#34;2678px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;将文件放到hugo创建的xxx文件夹里面的themes中&#34;&gt;将文件放到Hugo创建的xxx文件夹里面的themes中
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295611477.png&#34;
+	width=&#34;673&#34;
+	height=&#34;232&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295611477_hu6909047256556782118.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295611477_hu3051292260438881948.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768295611477&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;290&#34;
+		data-flex-basis=&#34;696px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;进入hugo-theme-stackexamplesite文件夹复制图中12文件&#34;&gt;进入hugo-theme-stack/exampleSite文件夹复制图中1，2文件
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295873559.png&#34;
+	width=&#34;631&#34;
+	height=&#34;274&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295873559_hu13179146462275335999.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295873559_hu4800632416861442753.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768295873559&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;230&#34;
+		data-flex-basis=&#34;552px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;将12文件粘贴到xxx文件中&#34;&gt;将1，2文件粘贴到xxx文件中
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295945774.png&#34;
+	width=&#34;644&#34;
+	height=&#34;499&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295945774_hu1217797075446669541.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768295945774_hu15196482838051110105.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768295945774&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;129&#34;
+		data-flex-basis=&#34;309px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;进入content/post 中 删除rich-content文件夹
+&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768296324161.png&#34;
+	width=&#34;651&#34;
+	height=&#34;317&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768296324161_hu2230363638698966677.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768296324161_hu17970005214841198641.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768296324161&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;205&#34;
+		data-flex-basis=&#34;492px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;回到xxx文件夹进入命令行模式使用-hugo-server--d-启动服务器&#34;&gt;回到xxx文件夹进入命令行模式，使用 &lt;code&gt;hugo server -D&lt;/code&gt; 启动服务器
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768296400296.png&#34;
+	width=&#34;2199&#34;
+	height=&#34;959&#34;
+	srcset=&#34;https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768296400296_hu17227120610626346040.png 480w, https://xiaofeiwu0628.github.io/p/%E6%9C%AC%E5%9C%B0hugosite%E6%9C%8D%E5%8A%A1%E9%83%A8%E7%BD%B2/image/index/1768296400296_hu8915285122667375827.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1768296400296&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;229&#34;
+		data-flex-basis=&#34;550px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;恭喜你已经成功部署了一个自己本地的hugo服务&#34;&gt;恭喜你已经成功部署了一个自己本地的hugo服务
+&lt;/h1&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
